@@ -169,7 +169,7 @@ class Editor extends ClassicEditor {
     },
     fontSize: {
       options: [9, 10, 11, 12, 14, 16, 18, 20, 24, 26, 28],
-      supportAllValues: true,
+      supportAllValues: false, // 仅支持px
     },
     image: {
       toolbar: ['imageTextAlternative', 'toggleImageCaption', 'imageStyle:inline', 'imageStyle:block', 'imageStyle:side', 'linkImage'],
